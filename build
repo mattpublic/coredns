@@ -1,0 +1,2 @@
+#!/bin/bash
+docker buildx build --platform arm64 -t mattpublic/coredns "$@" $(dirname $0)
